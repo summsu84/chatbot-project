@@ -1,0 +1,9 @@
+---
+applications:
+- name: logistic-api-server
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  env:
+    NPM_CONFIG_PRODUCTION: false

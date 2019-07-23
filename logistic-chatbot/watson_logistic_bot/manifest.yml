@@ -1,0 +1,15 @@
+---
+declared-services:
+  Conversation-logistics:
+    label: conversation
+    plan: lite
+applications:
+- name: logistic-conversation-demo-service
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - Conversation-logistics
+  env:
+    NPM_CONFIG_PRODUCTION: false

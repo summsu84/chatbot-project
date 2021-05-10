@@ -15,7 +15,7 @@
     "iconv": "*.*",
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.2.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "morgan": "~1.8.1",
     "nodemon": "^1.12.1",
     "request": "^2.83.0",
